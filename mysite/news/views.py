@@ -8,7 +8,7 @@ def index(request):
     news = News.objects.all()
     context = {
         'news': news,
-        'title': 'News list'
+        'title': 'Список новин'
     }
     return render(request, template_name='news/index.html', context=context)
 
