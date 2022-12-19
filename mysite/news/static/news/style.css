@@ -1,0 +1,11 @@
+body {
+    background-color: #ccc;
+}
+
+.errorlist {
+    color: rgb(180, 98, 98);
+}
+
+.list-group-item.list-group-item-action {
+    color: green;
+}
